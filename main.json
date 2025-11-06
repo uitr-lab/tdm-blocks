@@ -3,7 +3,23 @@
     "modules":[
 
         {
-            "name":"asim"
+            "bundle":"pop-synth",
+            "name":"Population Synthesis"
+        },
+
+        {
+            "bundle":"parcel-assignment",
+            "name":"Parcel Assignment"
+        },
+
+        {
+            "bundle":"asim",
+            "name":"ASIM"
+        },
+        
+        {
+            "bundle":"matsim",
+            "name":"Matsim"
         }
 
 
