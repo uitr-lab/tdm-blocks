@@ -4,22 +4,30 @@
 
         {
             "bundle":"pop-synth",
-            "name":"Population Synthesis"
+            "name":"Population Synthesis",
+            "package":"",
+            "version":"2.0"
         },
 
         {
             "bundle":"parcel-assignment",
-            "name":"Parcel Assignment"
+            "name":"Parcel Assignment",
+            "package":"",
+            "version":"1.0"
         },
 
         {
             "bundle":"asim",
-            "name":"ASIM"
+            "name":"ASIM",
+            "package":"",
+            "version":"1.0"
         },
-        
+
         {
             "bundle":"matsim",
-            "name":"Matsim"
+            "name":"Matsim",
+            "package":"",
+            "version":"x.0"
         }
 
 
