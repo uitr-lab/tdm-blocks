@@ -5,29 +5,29 @@
         {
             "bundle":"pop-synth",
             "name":"Population Synthesis",
-            "package":"",
+            "package":"popsynth.zip",
             "version":"2.0"
         },
 
         {
             "bundle":"parcel-assignment",
             "name":"Parcel Assignment",
-            "package":"",
+            "package":"travel-demand-parcel-assignment-main.zip",
             "version":"1.0"
         },
 
         {
             "bundle":"asim",
             "name":"ASIM",
-            "package":"",
+            "package":"travel-demand-model-main.zip",
             "version":"1.0"
         },
 
         {
             "bundle":"matsim",
             "name":"Matsim",
-            "package":"",
-            "version":"x.0"
+            "package":"matsim-2024.0-release.zip",
+            "version":"2024.0"
         }
 
 
