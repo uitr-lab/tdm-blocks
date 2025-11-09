@@ -5,28 +5,28 @@
         {
             "bundle":"pop-synth",
             "name":"Population Synthesis",
-            "package":"popsynth.zip",
+            "package":"eb96320e272b556bfbb825721463c9d5.zip",
             "version":"2.0"
         },
 
         {
             "bundle":"parcel-assignment",
             "name":"Parcel Assignment",
-            "package":"travel-demand-parcel-assignment-main.zip",
+            "package":"b588fd625f1ff9ae0b5aee78fcc6dca7.zip",
             "version":"1.0"
         },
 
         {
             "bundle":"asim",
             "name":"ASIM",
-            "package":"travel-demand-model-main.zip",
+            "package":"b8cb825ec5a10a33872b29dba5c98098.zip",
             "version":"1.0"
         },
 
         {
             "bundle":"matsim",
             "name":"Matsim",
-            "package":"matsim-2024.0-release.zip",
+            "package":"373e9ef761ab474742081d38a1ad82a4.zip",
             "version":"2024.0"
         }
 
