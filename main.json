@@ -20,7 +20,13 @@
             "bundle":"asim",
             "name":"ASIM",
             "package":"b8cb825ec5a10a33872b29dba5c98098.zip",
-            "version":"1.0"
+            "version":"1.0",
+            "input":{
+                "type":"folder"
+            },
+            "output":{
+                "type":"folder"
+            }
         },
 
         {
