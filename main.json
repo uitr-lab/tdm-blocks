@@ -1,43 +1,42 @@
 {
-    "version":"1.0",
-    "modules":[
-
+    "version": "1.0",
+    "modules": [
         {
-            "bundle":"pop-synth",
-            "name":"Population Synthesis",
-            "package":"eb96320e272b556bfbb825721463c9d5.zip",
-            "version":"2.0"
+            "bundle": "pop-synth",
+            "name": "Population Synthesis",
+            "package": "eb96320e272b556bfbb825721463c9d5.zip",
+            "version": "2.0"
         },
-
         {
-            "bundle":"parcel-assignment",
-            "name":"Parcel Assignment",
-            "package":"b588fd625f1ff9ae0b5aee78fcc6dca7.zip",
-            "version":"1.0"
+            "bundle": "parcel-assignment",
+            "name": "Parcel Assignment",
+            "package": "b588fd625f1ff9ae0b5aee78fcc6dca7.zip",
+            "version": "1.0"
         },
-
         {
-            "bundle":"asim",
-            "name":"ASIM",
-            "package":"b8cb825ec5a10a33872b29dba5c98098.zip",
-            "version":"1.0",
-            "input":{
-                "type":"folder"
+            "bundle": "asim",
+            "name": "ASIM",
+            "package": "b8cb825ec5a10a33872b29dba5c98098.zip",
+            "version": "1.0",
+            "input": {
+                "type": "folder"
             },
-            "output":{
-                "type":"folder"
-            }
+            "output": {
+                "type": "folder"
+            },
+            "modules": [
+                {
+                    "bundle": "asim.activity_gen",
+                    "name": "Actvity Generation",
+                    "version": "1.0"
+                }
+            ]
         },
-
         {
-            "bundle":"matsim",
-            "name":"Matsim",
-            "package":"373e9ef761ab474742081d38a1ad82a4.zip",
-            "version":"2024.0"
+            "bundle": "matsim",
+            "name": "Matsim",
+            "package": "373e9ef761ab474742081d38a1ad82a4.zip",
+            "version": "2024.0"
         }
-
-
-
     ]
-
 }
