@@ -17,6 +17,7 @@
             "bundle": "asim",
             "name": "ASIM",
             "package": "b8cb825ec5a10a33872b29dba5c98098.zip",
+            "file":"travel-demand-model-main/asim_flow.py",
             "version": "1.0",
             "input": {
                 "type": "folder"
@@ -28,12 +29,14 @@
                 {
                     "bundle": "asim.activity_generation",
                     "name": "Actvity Generation",
-                    "version": "1.0"
+                    "version": "1.0",
+                    "file":"travel-demand-model-main/activity_generation.py"
                 },
                 {
                     "bundle": "asim.activity_scheduling",
                     "name": "Actvity Scheduling",
-                    "version": "1.0"
+                    "version": "1.0",
+                    "file":"travel-demand-model-main/activity_scheduling.py"
                 }
             ]
         },
