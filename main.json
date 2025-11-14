@@ -18,6 +18,8 @@
             "name": "ASIM",
             "package": "b8cb825ec5a10a33872b29dba5c98098.zip",
             "file":"travel-demand-model-main/asim_flow.py",
+            "install":"python run.py dependencies",
+            "run":"python run.py asim_flow $input",
             "version": "1.0",
             "input": {
                 "type": "folder"
