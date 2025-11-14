@@ -26,8 +26,13 @@
             },
             "modules": [
                 {
-                    "bundle": "asim.activity_gen",
+                    "bundle": "asim.activity_generation",
                     "name": "Actvity Generation",
+                    "version": "1.0"
+                },
+                {
+                    "bundle": "asim.activity_scheduling",
+                    "name": "Actvity Scheduling",
                     "version": "1.0"
                 }
             ]
