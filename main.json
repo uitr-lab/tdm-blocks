@@ -40,7 +40,9 @@
                     "bundle": "asim.activity_scheduling",
                     "name": "Actvity Scheduling",
                     "version": "1.0",
-                    "file":"travel-demand-model-main/activity_scheduling.py"
+                    "file":"travel-demand-model-main/activity_scheduling.py",
+                    "install":"python run.py dependencies",
+                    "run":"python run.py activity_scheduling.asim $input"
                 }
             ]
         },
