@@ -32,7 +32,9 @@
                     "bundle": "asim.activity_generation",
                     "name": "Actvity Generation",
                     "version": "1.0",
-                    "file":"travel-demand-model-main/activity_generation.py"
+                    "file":"travel-demand-model-main/activity_generation.py",
+                    "install":"python run.py dependencies",
+                    "run":"python run.py activity_generation $input"
                 },
                 {
                     "bundle": "asim.activity_scheduling",
