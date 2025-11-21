@@ -37,21 +37,21 @@
                     "run": "python run.py activity_generation $input",
                     "modules": [
                         {
-                            "bundle": "asim_block.activity_gen.assign_population_types",
+                            "bundle": "asim.activity_generation.assign_population_types",
                             "name": "Population Types",
                             "version": "1.0",
                             "install": "python run.py dependencies",
                             "run": "python run.py asim_block.activity_gen.assign_population_types $input"
                         },
                         {
-                            "bundle": "asim_block.activity_gen.apply_demographics",
+                            "bundle": "asim.activity_generation.apply_demographics",
                             "name": "Assign Demographics",
                             "version": "1.0",
                             "install": "python run.py dependencies",
                             "run": "python run.py asim_block.activity_gen.apply_demographics $input"
                         },
                         {
-                            "bundle": "asim_block.activity_gen.assign_group_activities",
+                            "bundle": "asim.activity_generation.assign_group_activities",
                             "name": "Group Activities",
                             "version": "1.0",
                             "install": "python run.py dependencies",
