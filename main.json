@@ -17,9 +17,9 @@
             "bundle": "asim",
             "name": "ASIM",
             "package": "b8cb825ec5a10a33872b29dba5c98098.zip",
-            "file":"travel_demand_model/runnable/asim_flow.py",
-            "install":"python run.py dependencies",
-            "run":"python run.py asim_flow $input",
+            "file": "travel_demand_model/runnable/asim_flow.py",
+            "install": "python run.py dependencies",
+            "run": "python run.py asim_flow $input",
             "version": "1.0",
             "input": {
                 "type": "folder"
@@ -32,17 +32,40 @@
                     "bundle": "asim.activity_generation",
                     "name": "Actvity Generation",
                     "version": "1.0",
-                    "file":"travel_demand_model/runnable/activity_generation.py",
-                    "install":"python run.py dependencies",
-                    "run":"python run.py activity_generation $input"
+                    "file": "travel_demand_model/runnable/activity_generation.py",
+                    "install": "python run.py dependencies",
+                    "run": "python run.py activity_generation $input",
+                    "modules": [
+                        {
+                            "bundle": "asim_block.activity_gen.assign_population_types",
+                            "name": "Population Types",
+                            "version": "1.0",
+                            "install": "python run.py dependencies",
+                            "run": "python run.py asim_block.activity_gen.assign_population_types $input"
+                        },
+                        {
+                            "bundle": "asim_block.activity_gen.apply_demographics",
+                            "name": "Assign Demographics",
+                            "version": "1.0",
+                            "install": "python run.py dependencies",
+                            "run": "python run.py asim_block.activity_gen.apply_demographics $input"
+                        },
+                        {
+                            "bundle": "asim_block.activity_gen.assign_group_activities",
+                            "name": "Group Activities",
+                            "version": "1.0",
+                            "install": "python run.py dependencies",
+                            "run": "python run.py asim_block.activity_gen.assign_group_activities $input"
+                        }
+                    ]
                 },
                 {
                     "bundle": "asim.activity_scheduling",
                     "name": "Actvity Scheduling",
                     "version": "1.0",
-                    "file":"travel_demand_model/runnable/activity_scheduling.py",
-                    "install":"python run.py dependencies",
-                    "run":"python run.py activity_scheduling.asim $input"
+                    "file": "travel_demand_model/runnable/activity_scheduling.py",
+                    "install": "python run.py dependencies",
+                    "run": "python run.py activity_scheduling.asim $input"
                 }
             ]
         },
