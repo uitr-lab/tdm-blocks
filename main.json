@@ -5,7 +5,17 @@
             "bundle": "pop-synth",
             "name": "Population Synthesis",
             "package": "eb96320e272b556bfbb825721463c9d5.zip",
-            "version": "2.0"
+            "version": "2.0",
+            "modules":[
+
+                {
+                    "bundle": "parcel-assignment",
+                    "name": "Parcel Assignment",
+                    "package": "b588fd625f1ff9ae0b5aee78fcc6dca7.zip",
+                    "version": "1.0"
+                }
+
+            ]
         },
         {
             "bundle": "parcel-assignment",
