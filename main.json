@@ -17,12 +17,7 @@
 
             ]
         },
-        {
-            "bundle": "parcel-assignment",
-            "name": "Parcel Assignment",
-            "package": "b588fd625f1ff9ae0b5aee78fcc6dca7.zip",
-            "version": "1.0"
-        },
+        
         {
             "bundle": "asim",
             "name": "ASIM",
